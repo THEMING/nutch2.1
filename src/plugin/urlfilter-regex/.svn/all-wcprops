@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex
+END
+ivy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/ivy.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/build.xml
+END
+plugin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/plugin.xml
+END

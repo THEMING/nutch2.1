@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/parse-html/src/test/org/apache/nutch/parse/html
+END
+TestDOMContentUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/parse-html/src/test/org/apache/nutch/parse/html/TestDOMContentUtils.java
+END
+TestRobotsMetaProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/parse-html/src/test/org/apache/nutch/parse/html/TestRobotsMetaProcessor.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/crawl
+END
+TestUrlWithScore.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/crawl/TestUrlWithScore.java
+END
+TestURLPartitioner.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/crawl/TestURLPartitioner.java
+END
+DummyWritable.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/crawl/DummyWritable.java
+END
+TestInjector.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/crawl/TestInjector.java
+END
+TestSignatureFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/crawl/TestSignatureFactory.java
+END
+TestGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/crawl/TestGenerator.java
+END

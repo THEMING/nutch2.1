@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util
+END
+WritableTestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/WritableTestUtils.java
+END
+TestURLUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestURLUtil.java
+END
+TestTableUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestTableUtil.java
+END
+TestSuffixStringMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestSuffixStringMatcher.java
+END
+TestPrefixStringMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestPrefixStringMatcher.java
+END
+CrawlTestUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/CrawlTestUtil.java
+END
+TestEncodingDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestEncodingDetector.java
+END
+TestNodeWalker.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestNodeWalker.java
+END
+TestGZIPUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestGZIPUtils.java
+END
+TestStringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/TestStringUtil.java
+END
+AbstractNutchTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/util/AbstractNutchTest.java
+END

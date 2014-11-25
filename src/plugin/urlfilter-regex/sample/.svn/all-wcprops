@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/sample
+END
+WholeWebCrawling.rules
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/sample/WholeWebCrawling.rules
+END
+IntranetCrawling.rules
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/sample/IntranetCrawling.rules
+END
+IntranetCrawling.urls
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/sample/IntranetCrawling.urls
+END
+WholeWebCrawling.urls
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/sample/WholeWebCrawling.urls
+END
+Benchmarks.urls
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/sample/Benchmarks.urls
+END
+Benchmarks.rules
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-regex/sample/Benchmarks.rules
+END

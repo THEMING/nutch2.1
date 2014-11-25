@@ -1,0 +1,220 @@
+2014-11-25 09:52:34,329 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-25 09:52:34,339 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-25 09:52:34,352 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-25 09:52:34,626 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-25 09:52:34,631 INFO  plugin.PluginRepository - Plugins: looking in: E:\myeclipe10Workspace\nutch2.1\build\plugins
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Http / Https Protocol Plug-in (protocol-httpclient)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Parse Filter (org.apache.nutch.parse.ParseFilter)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-11-25 09:52:34,686 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-11-25 09:52:34,709 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-11-25 09:52:37,510 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-25 09:52:38,775 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-25 09:52:39,314 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-25 09:52:39,358 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-25 09:52:39,359 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-25 09:52:39,359 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-25 09:52:39,488 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-25 09:52:42,128 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-25 09:52:45,008 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-25 09:52:45,988 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-25 09:52:45,988 INFO  fetcher.FetcherJob - FetcherJob: threads: 10
+2014-11-25 09:52:45,989 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-25 09:52:45,989 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-25 09:52:45,989 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-25 09:52:46,090 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:52:46,090 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:52:46,090 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:52:46,090 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:52:46,090 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:52:46,090 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:52:46,091 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:52:46,091 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:52:46,096 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:52:46,096 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:52:46,096 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:52:46,097 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:52:46,097 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:52:46,097 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:52:46,097 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:52:46,097 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:52:46,101 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:52:46,101 INFO  http.Http - http.proxy.host = null
+2014-11-25 09:52:46,101 INFO  http.Http - http.proxy.port = 8080
+2014-11-25 09:52:46,101 INFO  http.Http - http.timeout = 10000
+2014-11-25 09:52:46,101 INFO  http.Http - http.content.limit = 65536
+2014-11-25 09:52:46,101 INFO  http.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:52:46,101 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:52:46,101 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:52:46,327 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-25 09:52:46,843 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-25 09:52:49,643 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-25 09:52:49,645 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-25 09:52:49,645 INFO  fetcher.FetcherJob - Fetcher: threads: 10
+2014-11-25 09:52:49,657 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/201
+2014-11-25 09:52:49,660 INFO  fetcher.FetcherJob - fetching http://creativecommons.org/press-releases/entry/5064
+2014-11-25 09:52:49,660 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-25 09:52:49,661 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-25 09:52:49,661 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:52:49,662 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:52:49,662 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:52:49,662 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:52:49,664 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:52:49,664 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:52:49,664 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:52:49,665 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:52:49,666 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:52:49,666 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:52:49,667 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:52:49,667 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:52:49,667 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:52:49,667 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:52:49,667 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:52:49,667 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:52:49,675 INFO  fetcher.FetcherJob - QueueFeeder finished: total 15 records. Hit by time limit :0
+2014-11-25 09:52:50,159 INFO  fetcher.FetcherJob - fetching http://blog.foofactory.fi/2007/03/twice-speed-half-size.html
+2014-11-25 09:52:50,159 INFO  fetcher.FetcherJob - fetching http://nutch.apache.org/
+2014-11-25 09:52:50,160 INFO  fetcher.FetcherJob - fetching http://code.google.com/p/crawler-commons/
+2014-11-25 09:52:50,161 INFO  fetcher.FetcherJob - fetching http://gora.apache.org/
+2014-11-25 09:52:50,162 INFO  fetcher.FetcherJob - fetching http://events.linuxfoundation.org/events/apachecon-europe
+2014-11-25 09:52:51,478 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-11-25 09:53:39,707 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-25 09:53:39,715 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-25 09:53:39,728 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-25 09:53:40,006 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-25 09:54:25,317 INFO  plugin.PluginRepository - Plugins: looking in: E:\myeclipe10Workspace\nutch2.1\build\plugins
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Http / Https Protocol Plug-in (protocol-httpclient)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Parse Filter (org.apache.nutch.parse.ParseFilter)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-11-25 09:54:34,043 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-11-25 09:54:34,069 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-11-25 09:54:36,899 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-25 09:54:38,120 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-25 09:54:38,659 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-25 09:54:38,713 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-25 09:54:38,714 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-25 09:54:38,714 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-25 09:54:38,831 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-25 09:54:41,456 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-25 09:54:44,337 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-25 09:54:45,318 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-25 09:54:45,318 INFO  fetcher.FetcherJob - FetcherJob: threads: 10
+2014-11-25 09:54:45,318 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-25 09:54:45,318 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-25 09:54:45,318 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-25 09:54:45,423 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:54:45,423 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:54:45,423 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:54:45,423 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:54:45,423 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:54:45,423 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:54:45,423 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:54:45,423 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:54:45,427 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:54:45,427 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:54:45,427 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:54:45,427 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:54:45,427 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:54:45,427 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:54:45,427 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:54:45,427 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:54:45,432 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:54:45,432 INFO  http.Http - http.proxy.host = null
+2014-11-25 09:54:45,432 INFO  http.Http - http.proxy.port = 8080
+2014-11-25 09:54:45,433 INFO  http.Http - http.timeout = 10000
+2014-11-25 09:54:45,433 INFO  http.Http - http.content.limit = 65536
+2014-11-25 09:54:45,433 INFO  http.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:54:45,433 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:54:45,433 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:54:45,663 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-25 09:54:46,188 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-25 09:54:48,985 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-25 09:54:48,987 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-25 09:54:48,987 INFO  fetcher.FetcherJob - Fetcher: threads: 10
+2014-11-25 09:54:49,003 INFO  fetcher.FetcherJob - fetching http://lucene.apache.org/solr/
+2014-11-25 09:54:49,005 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-25 09:54:49,005 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-25 09:54:49,005 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-25 09:54:49,006 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:54:49,006 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:54:49,006 INFO  fetcher.FetcherJob - fetching http://events.linuxfoundation.org/events/apachecon-north-america
+2014-11-25 09:54:49,006 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:54:49,006 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:54:49,006 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:54:49,006 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:54:49,006 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:54:49,007 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:54:49,011 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:54:49,011 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:54:49,011 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:54:49,011 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:54:49,011 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:54:49,011 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:54:49,011 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:54:49,011 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:54:49,012 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-25 09:54:49,012 INFO  httpclient.Http - http.proxy.host = null
+2014-11-25 09:54:49,012 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-25 09:54:49,012 INFO  httpclient.Http - http.timeout = 10000
+2014-11-25 09:54:49,012 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-25 09:54:49,012 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-25 09:54:49,012 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-25 09:54:49,012 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-25 09:54:49,019 INFO  fetcher.FetcherJob - QueueFeeder finished: total 19 records. Hit by time limit :0
+2014-11-25 09:54:49,507 INFO  fetcher.FetcherJob - fetching http://hadoop.apache.org/
+2014-11-25 09:54:49,507 INFO  fetcher.FetcherJob - fetching http://nutch.apache.org/
+2014-11-25 09:54:49,508 INFO  fetcher.FetcherJob - fetching http://creativecommons.org/press-releases/entry/5064
+2014-11-25 09:54:49,509 INFO  fetcher.FetcherJob - fetching http://blog.foofactory.fi/2007/03/twice-speed-half-size.html
+2014-11-25 09:54:49,510 INFO  fetcher.FetcherJob - fetching http://code.google.com/p/crawler-commons/
+2014-11-25 09:54:49,510 INFO  fetcher.FetcherJob - fetching http://gora.apache.org/
+2014-11-25 09:54:50,452 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-11-25 09:54:54,005 INFO  fetcher.FetcherJob - 8/10 spinwaiting/active, 7 pages, 0 errors, 1.4 1.4 pages/s, 292 292 kb/s, 10 URLs in 4 queues
+2014-11-25 09:54:55,501 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/201
+2014-11-25 09:54:55,933 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-11-25 09:54:59,005 INFO  fetcher.FetcherJob - 8/10 spinwaiting/active, 8 pages, 0 errors, 0.8 0.2 pages/s, 146 0 kb/s, 9 URLs in 4 queues
+2014-11-25 09:54:59,514 INFO  api.RobotRulesParser - Couldn't get robots.txt for http://code.google.com/p/crawler-commons/: org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 10000 ms
+2014-11-25 09:55:00,512 INFO  fetcher.FetcherJob - fetching http://events.linuxfoundation.org/events/apachecon-europe
+2014-11-25 09:55:00,936 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/251
+2014-11-25 09:55:04,005 INFO  fetcher.FetcherJob - 8/10 spinwaiting/active, 10 pages, 0 errors, 0.7 0.4 pages/s, 130 99 kb/s, 7 URLs in 3 queues

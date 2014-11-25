@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/tools/arc
+END
+ArcInputFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/tools/arc/ArcInputFormat.java
+END
+ArcRecordReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/tools/arc/ArcRecordReader.java
+END

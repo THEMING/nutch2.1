@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-http/src/java/org/apache/nutch/protocol/http
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-http/src/java/org/apache/nutch/protocol/http/package.html
+END
+HttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-http/src/java/org/apache/nutch/protocol/http/HttpResponse.java
+END
+Http.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-http/src/java/org/apache/nutch/protocol/http/Http.java
+END

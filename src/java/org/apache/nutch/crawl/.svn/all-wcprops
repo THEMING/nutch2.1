@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl
+END
+DefaultFetchSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/DefaultFetchSchedule.java
+END
+AbstractFetchSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/AbstractFetchSchedule.java
+END
+SignatureComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/SignatureComparator.java
+END
+GeneratorJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/GeneratorJob.java
+END
+InjectorJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/InjectorJob.java
+END
+URLPartitioner.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/URLPartitioner.java
+END
+DbUpdateMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/DbUpdateMapper.java
+END
+DbUpdateReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/DbUpdateReducer.java
+END
+UrlWithScore.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/UrlWithScore.java
+END
+WebTableReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/WebTableReader.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/package.html
+END
+TextProfileSignature.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/TextProfileSignature.java
+END
+AdaptiveFetchSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/AdaptiveFetchSchedule.java
+END
+MD5Signature.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/MD5Signature.java
+END
+FetchScheduleFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/FetchScheduleFactory.java
+END
+GeneratorReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/GeneratorReducer.java
+END
+CrawlStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/CrawlStatus.java
+END
+Signature.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/Signature.java
+END
+GeneratorMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/GeneratorMapper.java
+END
+URLWebPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/URLWebPage.java
+END
+Crawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/Crawler.java
+END
+SignatureFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/SignatureFactory.java
+END
+DbUpdaterJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/DbUpdaterJob.java
+END
+NutchWritable.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/NutchWritable.java
+END
+FetchSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/crawl/FetchSchedule.java
+END

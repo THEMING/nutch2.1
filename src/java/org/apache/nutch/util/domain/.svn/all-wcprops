@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/util/domain
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/util/domain/package.html
+END
+DomainStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/util/domain/DomainStatistics.java
+END
+DomainSuffixesReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/util/domain/DomainSuffixesReader.java
+END
+DomainSuffix.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/util/domain/DomainSuffix.java
+END
+DomainSuffixes.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/util/domain/DomainSuffixes.java
+END
+TopLevelDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/util/domain/TopLevelDomain.java
+END

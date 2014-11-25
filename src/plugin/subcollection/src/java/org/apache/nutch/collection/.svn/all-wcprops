@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/subcollection/src/java/org/apache/nutch/collection
+END
+CollectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/subcollection/src/java/org/apache/nutch/collection/CollectionManager.java
+END
+Subcollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/subcollection/src/java/org/apache/nutch/collection/Subcollection.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/subcollection/src/java/org/apache/nutch/collection/package.html
+END

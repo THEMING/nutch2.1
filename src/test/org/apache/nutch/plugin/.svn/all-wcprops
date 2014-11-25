@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/plugin
+END
+HelloWorldExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/plugin/HelloWorldExtension.java
+END
+SimpleTestPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/plugin/SimpleTestPlugin.java
+END
+TestPluginSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/plugin/TestPluginSystem.java
+END
+ITestExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/org/apache/nutch/plugin/ITestExtension.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/default.properties
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/README.txt
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/LICENSE.txt
+END
+eclipse-codeformat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/eclipse-codeformat.xml
+END
+KEYS
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/KEYS
+END
+CHANGES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/CHANGES.txt
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/.gitignore
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/pom.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/build.xml
+END
+NOTICE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/NOTICE.txt
+END

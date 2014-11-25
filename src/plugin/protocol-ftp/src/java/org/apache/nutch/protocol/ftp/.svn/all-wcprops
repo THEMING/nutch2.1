@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp
+END
+FtpExceptionCanNotHaveDataConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionCanNotHaveDataConnection.java
+END
+FtpExceptionBadSystResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionBadSystResponse.java
+END
+FtpException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpException.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/package.html
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/Client.java
+END
+FtpExceptionUnknownForcedDataClose.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionUnknownForcedDataClose.java
+END
+FtpError.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpError.java
+END
+FtpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpResponse.java
+END
+Ftp.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/Ftp.java
+END
+FtpExceptionControlClosedByForcedDataClose.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionControlClosedByForcedDataClose.java
+END
+PrintCommandListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/PrintCommandListener.java
+END

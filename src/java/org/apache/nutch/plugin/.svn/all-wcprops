@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin
+END
+Extension.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/Extension.java
+END
+MissingDependencyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/MissingDependencyException.java
+END
+PluginRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/PluginRepository.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/package.html
+END
+PluginRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/PluginRuntimeException.java
+END
+FieldPluggable.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/FieldPluggable.java
+END
+PluginClassLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/PluginClassLoader.java
+END
+CircularDependencyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/CircularDependencyException.java
+END
+Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/Plugin.java
+END
+Pluggable.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/Pluggable.java
+END
+PluginDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/PluginDescriptor.java
+END
+PluginManifestParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/PluginManifestParser.java
+END
+ExtensionPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/java/org/apache/nutch/plugin/ExtensionPoint.java
+END

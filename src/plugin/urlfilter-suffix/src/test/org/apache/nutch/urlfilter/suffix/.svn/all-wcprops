@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-suffix/src/test/org/apache/nutch/urlfilter/suffix
+END
+TestSuffixURLFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/urlfilter-suffix/src/test/org/apache/nutch/urlfilter/suffix/TestSuffixURLFilter.java
+END

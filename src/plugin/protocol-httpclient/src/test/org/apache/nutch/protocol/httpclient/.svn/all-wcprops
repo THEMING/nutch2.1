@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-httpclient/src/test/org/apache/nutch/protocol/httpclient
+END
+TestProtocolHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/protocol-httpclient/src/test/org/apache/nutch/protocol/httpclient/TestProtocolHttpClient.java
+END

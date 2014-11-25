@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-regex-filter/src/java/org/apache/nutch/urlfilter/api
+END
+RegexRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-regex-filter/src/java/org/apache/nutch/urlfilter/api/RegexRule.java
+END
+RegexURLFilterBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-regex-filter/src/java/org/apache/nutch/urlfilter/api/RegexURLFilterBase.java
+END

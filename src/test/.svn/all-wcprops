@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test
+END
+domain-urlfilter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/domain-urlfilter.txt
+END
+crawl-tests.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/crawl-tests.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/log4j.properties
+END
+gora.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/gora.properties
+END
+nutch-site.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/nutch-site.xml
+END
+filter-all.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/test/filter-all.txt
+END

@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 81
+build
+logs
+nutch.jar
+.classpath
+.project
+.settings
+pom.xml.asc
+
+runtime
+
+eclipse
+
+END

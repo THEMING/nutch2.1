@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/package.html
+END
+RobotRulesParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/RobotRulesParser.java
+END
+HttpBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/HttpBase.java
+END
+HttpException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/HttpException.java
+END
+BlockedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/BlockedException.java
+END

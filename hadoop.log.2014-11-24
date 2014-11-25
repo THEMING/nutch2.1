@@ -1,0 +1,903 @@
+2014-11-24 18:55:18,911 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 18:55:18,919 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 18:55:18,929 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 18:55:19,193 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 18:55:19,197 WARN  plugin.PluginRepository - Plugins: directory not found: ../build
+2014-11-24 18:55:19,198 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 18:55:19,198 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 18:55:19,198 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 18:55:19,198 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 18:55:19,198 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 18:55:19,198 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 18:55:19,199 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 18:57:04,074 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 18:57:04,082 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 18:57:04,093 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 18:57:04,352 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 18:57:04,356 WARN  plugin.PluginRepository - Plugins: directory not found: ../build/class
+2014-11-24 18:57:04,357 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 18:57:04,357 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 18:57:04,357 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 18:57:04,357 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 18:57:04,357 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 18:57:04,358 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 18:57:04,358 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:00:47,656 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:00:47,665 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:00:47,678 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:00:47,981 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:00:47,986 WARN  plugin.PluginRepository - Plugins: directory not found: ../build/class
+2014-11-24 19:00:47,987 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:00:47,987 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:00:47,987 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:00:47,987 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:00:47,987 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:00:47,987 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:00:47,988 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:11:54,291 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:11:54,300 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:11:54,313 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:11:57,571 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:12:21,887 WARN  plugin.PluginRepository - Plugins: directory not found: ../build/class
+2014-11-24 19:12:21,888 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:12:21,888 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:12:21,888 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:12:21,888 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:12:21,888 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:12:45,379 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:12:45,380 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:13:42,279 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:13:42,287 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:13:42,301 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:13:44,980 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:14:24,082 WARN  plugin.PluginRepository - Plugins: directory not found: ../build/class
+2014-11-24 19:14:24,083 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:14:24,083 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:14:24,083 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:14:24,084 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:14:24,084 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:15:00,318 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:15:00,319 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:15:05,431 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:15:05,438 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:15:05,450 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:15:05,718 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:15:05,729 WARN  plugin.PluginRepository - Plugins: directory not found: ../build/class
+2014-11-24 19:15:05,730 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:15:05,730 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:15:05,730 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:15:05,730 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:15:05,730 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:15:05,731 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:15:05,732 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:15:11,275 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:15:11,284 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:15:11,296 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:15:13,424 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:17:46,888 WARN  plugin.PluginRepository - Plugins: directory not found: ../build/class
+2014-11-24 19:18:13,893 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:18:13,893 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:18:13,893 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:18:13,893 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:18:13,893 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:18:15,302 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:18:15,303 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:18:56,029 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:18:56,037 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:18:56,052 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:18:58,007 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:21:07,462 WARN  plugin.PluginRepository - Plugins: directory not found: ../src/plugin
+2014-11-24 19:23:08,902 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:23:08,902 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:23:08,902 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:23:08,902 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:23:08,902 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:23:10,144 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:23:10,145 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:23:51,826 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:23:51,833 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:23:51,848 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:23:53,841 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:24:33,236 WARN  plugin.PluginRepository - Plugins: directory not found: ../build/plugins
+2014-11-24 19:25:08,000 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:25:08,000 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:25:08,000 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:25:08,000 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:25:08,000 INFO  plugin.PluginRepository - 	NONE
+2014-11-24 19:25:09,233 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:25:09,234 WARN  mapred.LocalJobRunner - job_local_0001
+java.lang.RuntimeException: x point org.apache.nutch.net.URLNormalizer not found.
+	at org.apache.nutch.net.URLNormalizers.<init>(URLNormalizers.java:122)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:370)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:212)
+2014-11-24 19:28:16,438 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-24 19:28:16,446 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:28:16,459 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-24 19:28:18,109 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:28:25,847 INFO  plugin.PluginRepository - Plugins: looking in: E:\myeclipe10Workspace\nutch2.1\build\plugins
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - Registered Plugins:
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Http / Https Protocol Plug-in (protocol-httpclient)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-11-24 19:28:38,439 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Parse Filter (org.apache.nutch.parse.ParseFilter)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-11-24 19:28:38,440 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-11-24 19:28:49,810 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-11-24 19:28:52,639 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:29:04,790 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:29:05,332 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:29:05,429 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-24 19:29:05,430 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-24 19:29:05,430 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-24 19:29:05,558 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-24 19:29:08,126 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:29:11,006 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:29:12,014 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-24 19:29:12,014 INFO  fetcher.FetcherJob - FetcherJob: threads: 10
+2014-11-24 19:29:12,014 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-24 19:29:12,014 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-24 19:29:12,015 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-24 19:29:12,127 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:12,128 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:29:12,128 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:29:12,128 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:29:12,128 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:29:12,128 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:12,128 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:12,128 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:12,132 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:12,132 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:29:12,132 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:29:12,132 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:29:12,132 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:29:12,132 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:12,132 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:12,132 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:12,137 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:12,137 INFO  http.Http - http.proxy.host = null
+2014-11-24 19:29:12,137 INFO  http.Http - http.proxy.port = 8080
+2014-11-24 19:29:12,137 INFO  http.Http - http.timeout = 10000
+2014-11-24 19:29:12,137 INFO  http.Http - http.content.limit = 65536
+2014-11-24 19:29:12,137 INFO  http.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:12,137 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:12,137 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:12,408 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:29:12,937 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:29:15,730 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:29:15,732 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-24 19:29:15,732 INFO  fetcher.FetcherJob - Fetcher: threads: 10
+2014-11-24 19:29:15,769 INFO  fetcher.FetcherJob - QueueFeeder finished: total 1 records. Hit by time limit :0
+2014-11-24 19:29:15,771 INFO  fetcher.FetcherJob - fetching http://nutch.apache.org/
+2014-11-24 19:29:15,772 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:15,773 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:29:15,773 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:29:15,774 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:29:15,774 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:29:15,774 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:15,774 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:15,774 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:15,774 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=3
+2014-11-24 19:29:15,774 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=3
+2014-11-24 19:29:15,774 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=3
+2014-11-24 19:29:15,774 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=3
+2014-11-24 19:29:15,775 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=3
+2014-11-24 19:29:15,775 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=3
+2014-11-24 19:29:15,775 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=3
+2014-11-24 19:29:15,775 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-24 19:29:15,776 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-24 19:29:16,271 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=1
+2014-11-24 19:29:16,271 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2014-11-24 19:29:20,534 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2014-11-24 19:29:20,776 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 1 pages, 0 errors, 0.2 0.2 pages/s, 79 79 kb/s, 0 URLs in 0 queues
+2014-11-24 19:29:20,777 INFO  fetcher.FetcherJob - -activeThreads=0
+2014-11-24 19:29:21,619 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:29:22,619 INFO  parse.ParserJob - ParserJob: resuming:	false
+2014-11-24 19:29:22,619 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2014-11-24 19:29:22,619 INFO  parse.ParserJob - ParserJob: parsing all
+2014-11-24 19:29:23,006 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-24 19:29:23,242 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:29:23,816 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:29:23,925 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:29:23,943 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-24 19:29:24,063 INFO  parse.ParserJob - Parsing http://nutch.apache.org/
+2014-11-24 19:29:24,292 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-11-24 19:29:26,407 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:29:27,809 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:29:28,368 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:29:31,102 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:29:31,102 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-24 19:29:31,102 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-24 19:29:31,103 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-24 19:29:33,994 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:29:35,205 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:29:35,703 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:29:35,747 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-24 19:29:35,748 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-24 19:29:35,748 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-24 19:29:35,853 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-24 19:29:38,495 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:29:41,389 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:29:42,377 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-24 19:29:42,377 INFO  fetcher.FetcherJob - FetcherJob: threads: 10
+2014-11-24 19:29:42,377 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-24 19:29:42,377 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-24 19:29:42,377 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-24 19:29:42,379 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:42,379 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:29:42,379 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:29:42,379 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:29:42,379 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:29:42,379 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:42,379 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:42,379 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:42,380 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:42,380 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:29:42,380 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:29:42,380 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:29:42,380 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:29:42,380 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:42,380 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:42,380 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:42,381 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:42,381 INFO  http.Http - http.proxy.host = null
+2014-11-24 19:29:42,381 INFO  http.Http - http.proxy.port = 8080
+2014-11-24 19:29:42,381 INFO  http.Http - http.timeout = 10000
+2014-11-24 19:29:42,381 INFO  http.Http - http.content.limit = 65536
+2014-11-24 19:29:42,381 INFO  http.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:42,381 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:42,382 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:42,606 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:29:43,111 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:29:45,898 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:29:45,899 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-24 19:29:45,899 INFO  fetcher.FetcherJob - Fetcher: threads: 10
+2014-11-24 19:29:45,906 INFO  fetcher.FetcherJob - fetching http://nutch.apache.org/
+2014-11-24 19:29:45,907 INFO  fetcher.FetcherJob - fetching http://blog.foofactory.fi/2007/03/twice-speed-half-size.html
+2014-11-24 19:29:45,908 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:45,908 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:29:45,908 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:29:45,909 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:29:45,909 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:29:45,909 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:45,909 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:45,909 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:45,910 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:29:45,911 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:29:45,911 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:29:45,911 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:29:45,911 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:29:45,911 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:29:45,911 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:29:45,911 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:29:45,909 INFO  fetcher.FetcherJob - fetching http://code.google.com/p/crawler-commons/
+2014-11-24 19:29:45,913 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-24 19:29:45,913 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-24 19:29:45,914 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/137
+2014-11-24 19:29:45,916 INFO  fetcher.FetcherJob - QueueFeeder finished: total 6 records. Hit by time limit :0
+2014-11-24 19:29:46,415 INFO  fetcher.FetcherJob - fetching http://creativecommons.org/press-releases/entry/5064
+2014-11-24 19:29:50,913 INFO  fetcher.FetcherJob - 8/10 spinwaiting/active, 3 pages, 0 errors, 0.6 0.6 pages/s, 148 148 kb/s, 1 URLs in 2 queues
+2014-11-24 19:29:50,913 INFO  fetcher.FetcherJob - * queue: http://eu.apachecon.com
+2014-11-24 19:29:50,914 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-11-24 19:29:50,914 INFO  fetcher.FetcherJob -   inProgress    = 1
+2014-11-24 19:29:50,914 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-11-24 19:29:50,914 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-11-24 19:29:50,914 INFO  fetcher.FetcherJob -   nextFetchTime = 1416828585901
+2014-11-24 19:29:50,914 INFO  fetcher.FetcherJob -   now           = 1416828590914
+2014-11-24 19:29:50,914 INFO  fetcher.FetcherJob -   0. http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:29:55,914 INFO  fetcher.FetcherJob - 8/10 spinwaiting/active, 3 pages, 0 errors, 0.3 0.0 pages/s, 74 0 kb/s, 1 URLs in 2 queues
+2014-11-24 19:29:55,914 INFO  fetcher.FetcherJob - * queue: http://eu.apachecon.com
+2014-11-24 19:29:55,914 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-11-24 19:29:55,915 INFO  fetcher.FetcherJob -   inProgress    = 1
+2014-11-24 19:29:55,915 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-11-24 19:29:55,915 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-11-24 19:29:55,915 INFO  fetcher.FetcherJob -   nextFetchTime = 1416828585901
+2014-11-24 19:29:55,915 INFO  fetcher.FetcherJob -   now           = 1416828595915
+2014-11-24 19:29:55,915 INFO  fetcher.FetcherJob -   0. http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:29:55,949 INFO  api.RobotRulesParser - Couldn't get robots.txt for http://code.google.com/p/crawler-commons/: org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 10000 ms
+2014-11-24 19:29:57,920 INFO  api.RobotRulesParser - Couldn't get robots.txt for http://eu.apachecon.com/c/aceu2009/sessions/137: java.net.UnknownHostException: eu.apachecon.com
+2014-11-24 19:29:57,922 ERROR httpclient.Http - Failed with the following error: 
+java.net.UnknownHostException: eu.apachecon.com
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:240)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:619)
+2014-11-24 19:29:57,924 WARN  fetcher.FetcherJob - fetch of http://eu.apachecon.com/c/aceu2009/sessions/137 failed with: java.net.UnknownHostException: eu.apachecon.com
+2014-11-24 19:30:00,915 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 4 pages, 1 errors, 0.3 0.2 pages/s, 49 0 kb/s, 1 URLs in 2 queues
+2014-11-24 19:30:00,915 INFO  fetcher.FetcherJob - * queue: http://eu.apachecon.com
+2014-11-24 19:30:00,915 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-11-24 19:30:00,915 INFO  fetcher.FetcherJob -   inProgress    = 0
+2014-11-24 19:30:00,916 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-11-24 19:30:00,916 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-11-24 19:30:00,916 INFO  fetcher.FetcherJob -   nextFetchTime = 1416828602924
+2014-11-24 19:30:00,916 INFO  fetcher.FetcherJob -   now           = 1416828600916
+2014-11-24 19:30:00,916 INFO  fetcher.FetcherJob -   0. http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:30:02,926 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:30:02,928 INFO  api.RobotRulesParser - Couldn't get robots.txt for http://eu.apachecon.com/c/aceu2009/sessions/136: java.net.UnknownHostException: eu.apachecon.com
+2014-11-24 19:30:02,929 ERROR httpclient.Http - Failed with the following error: 
+java.net.UnknownHostException: eu.apachecon.com
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:240)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:619)
+2014-11-24 19:30:02,930 WARN  fetcher.FetcherJob - fetch of http://eu.apachecon.com/c/aceu2009/sessions/136 failed with: java.net.UnknownHostException: eu.apachecon.com
+2014-11-24 19:30:02,931 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=9
+2014-11-24 19:30:03,043 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=8
+2014-11-24 19:30:03,141 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=7
+2014-11-24 19:30:03,388 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=6
+2014-11-24 19:30:03,418 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=4
+2014-11-24 19:30:03,418 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=4
+2014-11-24 19:30:03,418 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=2
+2014-11-24 19:30:03,418 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=3
+2014-11-24 19:30:03,419 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2014-11-24 19:30:05,916 INFO  fetcher.FetcherJob - 0/1 spinwaiting/active, 5 pages, 2 errors, 0.3 0.2 pages/s, 37 0 kb/s, 0 URLs in 1 queues
+2014-11-24 19:30:05,950 ERROR httpclient.Http - Failed with the following error: 
+org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 10000 ms
+	at org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:155)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:125)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.apache.nutch.protocol.httpclient.HttpResponse.<init>(HttpResponse.java:95)
+	at org.apache.nutch.protocol.httpclient.Http.getResponse(Http.java:172)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:138)
+	at org.apache.nutch.fetcher.FetcherReducer$FetcherThread.run(FetcherReducer.java:514)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:140)
+	... 11 more
+2014-11-24 19:30:05,951 WARN  fetcher.FetcherJob - fetch of http://code.google.com/p/crawler-commons/ failed with: org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 10000 ms
+2014-11-24 19:30:05,952 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=0
+2014-11-24 19:30:10,916 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 6 pages, 3 errors, 0.2 0.2 pages/s, 29 0 kb/s, 0 URLs in 0 queues
+2014-11-24 19:30:10,916 INFO  fetcher.FetcherJob - -activeThreads=0
+2014-11-24 19:30:12,796 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:30:13,781 INFO  parse.ParserJob - ParserJob: resuming:	false
+2014-11-24 19:30:13,781 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2014-11-24 19:30:13,781 INFO  parse.ParserJob - ParserJob: parsing all
+2014-11-24 19:30:13,817 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-24 19:30:14,040 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:30:14,519 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:30:14,626 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:30:14,630 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-24 19:30:14,738 INFO  parse.ParserJob - Skipping http://sched.co/1pav9xl; different batch id (null)
+2014-11-24 19:30:14,739 INFO  parse.ParserJob - Skipping http://sched.co/1pbE15n; different batch id (null)
+2014-11-24 19:30:14,740 INFO  parse.ParserJob - Skipping http://www.eu.apachecon.com/c/aceu2009/; different batch id (null)
+2014-11-24 19:30:14,742 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:30:14,743 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/137
+2014-11-24 19:30:14,744 INFO  parse.ParserJob - Skipping http://eu.apachecon.com/c/aceu2009/sessions/138; different batch id (null)
+2014-11-24 19:30:14,746 INFO  parse.ParserJob - Skipping http://eu.apachecon.com/c/aceu2009/sessions/165; different batch id (null)
+2014-11-24 19:30:14,747 INFO  parse.ParserJob - Skipping http://eu.apachecon.com/c/aceu2009/sessions/197; different batch id (null)
+2014-11-24 19:30:14,748 INFO  parse.ParserJob - Skipping http://eu.apachecon.com/c/aceu2009/sessions/201; different batch id (null)
+2014-11-24 19:30:14,749 INFO  parse.ParserJob - Skipping http://eu.apachecon.com/c/aceu2009/sessions/250; different batch id (null)
+2014-11-24 19:30:14,750 INFO  parse.ParserJob - Skipping http://eu.apachecon.com/c/aceu2009/sessions/251; different batch id (null)
+2014-11-24 19:30:14,751 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/; different batch id (null)
+2014-11-24 19:30:14,752 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/schedule; different batch id (null)
+2014-11-24 19:30:14,753 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/331; different batch id (null)
+2014-11-24 19:30:14,755 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/332; different batch id (null)
+2014-11-24 19:30:14,756 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/333; different batch id (null)
+2014-11-24 19:30:14,758 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/334; different batch id (null)
+2014-11-24 19:30:14,759 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/335; different batch id (null)
+2014-11-24 19:30:14,761 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/375; different batch id (null)
+2014-11-24 19:30:14,762 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/427; different batch id (null)
+2014-11-24 19:30:14,763 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/428; different batch id (null)
+2014-11-24 19:30:14,764 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/430; different batch id (null)
+2014-11-24 19:30:14,766 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/437; different batch id (null)
+2014-11-24 19:30:14,768 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/461; different batch id (null)
+2014-11-24 19:30:14,769 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/462; different batch id (null)
+2014-11-24 19:30:14,770 INFO  parse.ParserJob - Skipping http://www.cafepress.com/nutch; different batch id (null)
+2014-11-24 19:30:14,772 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/andrewfhart/8106189987/; different batch id (null)
+2014-11-24 19:30:14,773 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/andrewfhart/8106200690/; different batch id (null)
+2014-11-24 19:30:14,775 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/mrmuskrat/3637703614/; different batch id (null)
+2014-11-24 19:30:14,776 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/splorp/3981832163/; different batch id (null)
+2014-11-24 19:30:14,778 INFO  parse.ParserJob - Skipping https://www.google-melange.com/gsoc/homepage/google/gsoc2014; different batch id (null)
+2014-11-24 19:30:14,779 INFO  parse.ParserJob - Parsing http://code.google.com/p/crawler-commons/
+2014-11-24 19:30:14,780 INFO  parse.ParserJob - Skipping https://twitter.com/ApacheNutch; different batch id (null)
+2014-11-24 19:30:14,781 INFO  parse.ParserJob - Skipping https://twitter.com/cutting/status/233415059798372353; different batch id (null)
+2014-11-24 19:30:14,782 INFO  parse.ParserJob - Skipping http://www.brics.dk/automaton/; different batch id (null)
+2014-11-24 19:30:14,783 INFO  parse.ParserJob - Skipping http://www.brics.dk/automaton/automaton; different batch id (null)
+2014-11-24 19:30:14,786 INFO  parse.ParserJob - Parsing http://blog.foofactory.fi/2007/03/twice-speed-half-size.html
+2014-11-24 19:30:14,820 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-11-24 19:30:14,839 INFO  parse.ParserJob - Skipping https://builds.apache.org/view/M-R/view/Nutch/; different batch id (null)
+2014-11-24 19:30:14,840 INFO  parse.ParserJob - Skipping https://cwiki.apache.org/confluence/display/solr/SolrCloud; different batch id (null)
+2014-11-24 19:30:14,841 INFO  parse.ParserJob - Skipping http://gora.apache.org/; different batch id (null)
+2014-11-24 19:30:14,842 INFO  parse.ParserJob - Skipping http://hadoop.apache.org/; different batch id (null)
+2014-11-24 19:30:14,843 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH-1047; different batch id (null)
+2014-11-24 19:30:14,844 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH-1591; different batch id (null)
+2014-11-24 19:30:14,845 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH-841; different batch id (null)
+2014-11-24 19:30:14,846 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH/; different batch id (null)
+2014-11-24 19:30:14,847 INFO  parse.ParserJob - Skipping http://lucene.apache.org/; different batch id (null)
+2014-11-24 19:30:14,848 INFO  parse.ParserJob - Skipping http://lucene.apache.org/solr; different batch id (null)
+2014-11-24 19:30:14,850 INFO  parse.ParserJob - Skipping http://lucene.apache.org/solr/; different batch id (null)
+2014-11-24 19:30:14,862 INFO  parse.ParserJob - Parsing http://nutch.apache.org/
+2014-11-24 19:30:14,942 INFO  parse.ParserJob - Skipping http://nutch.apache.org/bot.html; different batch id (null)
+2014-11-24 19:30:14,944 INFO  parse.ParserJob - Skipping http://nutch.apache.org/credits.html; different batch id (null)
+2014-11-24 19:30:14,945 INFO  parse.ParserJob - Skipping http://nutch.apache.org/downloads.html; different batch id (null)
+2014-11-24 19:30:14,946 INFO  parse.ParserJob - Skipping http://nutch.apache.org/index.html; different batch id (null)
+2014-11-24 19:30:14,948 INFO  parse.ParserJob - Skipping http://nutch.apache.org/javadoc.html; different batch id (null)
+2014-11-24 19:30:14,949 INFO  parse.ParserJob - Skipping http://nutch.apache.org/mailing_lists.html; different batch id (null)
+2014-11-24 19:30:14,950 INFO  parse.ParserJob - Skipping http://nutch.apache.org/version_control.html; different batch id (null)
+2014-11-24 19:30:14,951 INFO  parse.ParserJob - Skipping http://s.apache.org/1.9-release; different batch id (null)
+2014-11-24 19:30:14,952 INFO  parse.ParserJob - Skipping http://s.apache.org/1zE; different batch id (null)
+2014-11-24 19:30:14,953 INFO  parse.ParserJob - Skipping http://s.apache.org/LPB; different batch id (null)
+2014-11-24 19:30:14,954 INFO  parse.ParserJob - Skipping http://s.apache.org/PGa; different batch id (null)
+2014-11-24 19:30:14,955 INFO  parse.ParserJob - Skipping http://s.apache.org/oHY; different batch id (null)
+2014-11-24 19:30:14,956 INFO  parse.ParserJob - Skipping http://tika.apache.org/; different batch id (null)
+2014-11-24 19:30:14,958 INFO  parse.ParserJob - Skipping http://tika.apache.org/1.2/index.html; different batch id (null)
+2014-11-24 19:30:14,959 INFO  parse.ParserJob - Skipping https://whimsy.apache.org/board/minutes/Nutch.html; different batch id (null)
+2014-11-24 19:30:14,960 INFO  parse.ParserJob - Skipping http://wicket.apache.org/; different batch id (null)
+2014-11-24 19:30:14,962 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/; different batch id (null)
+2014-11-24 19:30:14,963 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/Becoming_A_Nutch_Developer; different batch id (null)
+2014-11-24 19:30:14,964 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/FAQ; different batch id (null)
+2014-11-24 19:30:14,965 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/NutchPropertiesCompleteList; different batch id (null)
+2014-11-24 19:30:14,966 INFO  parse.ParserJob - Skipping https://wiki.apache.org/nutch/FrontPage; different batch id (null)
+2014-11-24 19:30:14,966 INFO  parse.ParserJob - Skipping https://wiki.apache.org/nutch/NutchRESTAPI; different batch id (null)
+2014-11-24 19:30:14,967 INFO  parse.ParserJob - Skipping http://www.apache.org/; different batch id (null)
+2014-11-24 19:30:14,968 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.5.1/CHANGES.txt; different batch id (null)
+2014-11-24 19:30:14,969 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.6/CHANGES_1.6.txt; different batch id (null)
+2014-11-24 19:30:14,970 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.7/1.7-CHANGES.txt; different batch id (null)
+2014-11-24 19:30:14,971 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.8/CHANGES.txt; different batch id (null)
+2014-11-24 19:30:14,972 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.9/CHANGES.txt; different batch id (null)
+2014-11-24 19:30:14,973 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.0/CHANGES.txt; different batch id (null)
+2014-11-24 19:30:14,974 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.1/CHANGES-2.1.txt; different batch id (null)
+2014-11-24 19:30:14,975 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.2.1/CHANGES-2.2.1.txt; different batch id (null)
+2014-11-24 19:30:14,977 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.2/2.2-CHANGES.txt; different batch id (null)
+2014-11-24 19:30:14,978 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-0.8.1.txt; different batch id (null)
+2014-11-24 19:30:14,979 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-0.9.txt; different batch id (null)
+2014-11-24 19:30:14,980 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.0.txt; different batch id (null)
+2014-11-24 19:30:14,981 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.1.txt; different batch id (null)
+2014-11-24 19:30:14,981 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.2.txt; different batch id (null)
+2014-11-24 19:30:14,982 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.3.txt; different batch id (null)
+2014-11-24 19:30:14,983 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.4.txt; different batch id (null)
+2014-11-24 19:30:14,984 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.5.txt; different batch id (null)
+2014-11-24 19:30:14,985 INFO  parse.ParserJob - Skipping http://www.apache.org/dyn/closer.cgi/nutch/; different batch id (null)
+2014-11-24 19:30:14,986 INFO  parse.ParserJob - Skipping http://www.apache.org/foundation/records/minutes/2010/board_minutes_2010_04_21.txt; different batch id (null)
+2014-11-24 19:30:14,987 INFO  parse.ParserJob - Skipping http://www.apache.org/foundation/sponsorship.html; different batch id (null)
+2014-11-24 19:30:14,988 INFO  parse.ParserJob - Skipping http://www.apache.org/foundation/thanks.html; different batch id (null)
+2014-11-24 19:30:14,989 INFO  parse.ParserJob - Skipping http://www.apache.org/licenses/; different batch id (null)
+2014-11-24 19:30:14,991 INFO  parse.ParserJob - Skipping http://www.apache.org/licenses/LICENSE-2.0; different batch id (null)
+2014-11-24 19:30:14,993 INFO  parse.ParserJob - Skipping http://www.apache.org/security/; different batch id (null)
+2014-11-24 19:30:14,997 INFO  parse.ParserJob - Parsing http://creativecommons.org/press-releases/entry/5064
+2014-11-24 19:30:15,035 INFO  parse.ParserJob - Skipping https://creativecommons.org/licenses/by-sa/2.0/; different batch id (null)
+2014-11-24 19:30:15,036 INFO  parse.ParserJob - Skipping http://www.elasticsearch.org/; different batch id (null)
+2014-11-24 19:30:15,037 INFO  parse.ParserJob - Skipping http://events.linuxfoundation.org/events/apachecon-europe; different batch id (null)
+2014-11-24 19:30:15,039 INFO  parse.ParserJob - Skipping http://events.linuxfoundation.org/events/apachecon-north-america; different batch id (null)
+2014-11-24 19:30:15,040 INFO  parse.ParserJob - Skipping http://search.maven.org/; different batch id (null)
+2014-11-24 19:30:15,041 INFO  parse.ParserJob - Skipping http://osuosl.org/news_folder/nutch; different batch id (null)
+2014-11-24 19:30:17,200 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:30:18,427 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:30:18,916 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:30:21,715 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:30:21,716 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-24 19:30:21,716 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-24 19:30:21,716 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-24 19:30:24,605 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:30:25,818 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:30:26,298 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:30:26,344 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-24 19:30:26,344 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-24 19:30:26,344 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-24 19:30:26,448 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-24 19:30:29,099 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:30:31,992 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:30:32,972 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-24 19:30:32,972 INFO  fetcher.FetcherJob - FetcherJob: threads: 10
+2014-11-24 19:30:32,972 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-24 19:30:32,972 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-24 19:30:32,973 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-24 19:30:32,974 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:30:32,974 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:30:32,974 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:30:32,974 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:30:32,974 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:30:32,974 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:30:32,974 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:30:32,974 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:30:32,975 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:30:32,975 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:30:32,975 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:30:32,975 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:30:32,975 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:30:32,975 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:30:32,975 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:30:32,975 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:30:32,975 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:30:32,975 INFO  http.Http - http.proxy.host = null
+2014-11-24 19:30:32,975 INFO  http.Http - http.proxy.port = 8080
+2014-11-24 19:30:32,976 INFO  http.Http - http.timeout = 10000
+2014-11-24 19:30:32,976 INFO  http.Http - http.content.limit = 65536
+2014-11-24 19:30:32,976 INFO  http.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:30:32,976 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:30:32,976 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:30:33,203 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:30:33,687 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:30:36,476 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:30:36,476 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-24 19:30:36,476 INFO  fetcher.FetcherJob - Fetcher: threads: 10
+2014-11-24 19:30:36,480 INFO  fetcher.FetcherJob - fetching http://nutch.apache.org/
+2014-11-24 19:30:36,481 ERROR api.RobotRulesParser - Agent we advertise (Your Nutch Spider) not listed first in 'http.robots.agents' property!
+2014-11-24 19:30:36,481 INFO  httpclient.Http - http.proxy.host = null
+2014-11-24 19:30:36,481 INFO  httpclient.Http - http.proxy.port = 8080
+2014-11-24 19:30:36,481 INFO  httpclient.Http - http.timeout = 10000
+2014-11-24 19:30:36,481 INFO  httpclient.Http - http.content.limit = 65536
+2014-11-24 19:30:36,481 INFO  httpclient.Http - http.agent = Your Nutch Spider/Nutch-2.1
+2014-11-24 19:30:36,481 INFO  httpclient.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-24 19:30:36,481 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-24 19:30:36,481 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-24 19:30:36,482 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-24 19:30:36,482 INFO  fetcher.FetcherJob - fetching http://blog.foofactory.fi/2007/03/twice-speed-half-size.html
+2014-11-24 19:30:36,483 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/201
+2014-11-24 19:30:36,486 INFO  fetcher.FetcherJob - QueueFeeder finished: total 11 records. Hit by time limit :0
+2014-11-24 19:30:36,489 INFO  fetcher.FetcherJob - fetching http://creativecommons.org/press-releases/entry/5064
+2014-11-24 19:30:36,493 INFO  fetcher.FetcherJob - fetching http://code.google.com/p/crawler-commons/
+2014-11-24 19:30:38,493 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-11-24 19:30:41,482 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 4 pages, 0 errors, 0.8 0.8 pages/s, 148 148 kb/s, 6 URLs in 2 queues
+2014-11-24 19:30:43,501 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/137
+2014-11-24 19:30:43,977 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-11-24 19:30:46,482 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 5 pages, 0 errors, 0.5 0.2 pages/s, 74 0 kb/s, 5 URLs in 2 queues
+2014-11-24 19:30:46,494 INFO  api.RobotRulesParser - Couldn't get robots.txt for http://code.google.com/p/crawler-commons/: org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 10000 ms
+2014-11-24 19:30:48,978 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/197
+2014-11-24 19:30:51,482 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 6 pages, 0 errors, 0.4 0.2 pages/s, 50 0 kb/s, 4 URLs in 2 queues
+2014-11-24 19:30:51,482 INFO  fetcher.FetcherJob - * queue: http://eu.apachecon.com
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   inProgress    = 0
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   nextFetchTime = 1416828654550
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   now           = 1416828651483
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   0. http://eu.apachecon.com/c/aceu2009/sessions/250
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   1. http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   2. http://eu.apachecon.com/c/aceu2009/sessions/138
+2014-11-24 19:30:51,483 INFO  fetcher.FetcherJob -   3. http://eu.apachecon.com/c/aceu2009/sessions/165
+2014-11-24 19:30:54,552 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/250
+2014-11-24 19:30:56,483 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 7 pages, 0 errors, 0.4 0.2 pages/s, 37 0 kb/s, 3 URLs in 2 queues
+2014-11-24 19:30:56,483 INFO  fetcher.FetcherJob - * queue: http://eu.apachecon.com
+2014-11-24 19:30:56,483 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   inProgress    = 0
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   nextFetchTime = 1416828660001
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   now           = 1416828656484
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   0. http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   1. http://eu.apachecon.com/c/aceu2009/sessions/138
+2014-11-24 19:30:56,484 INFO  fetcher.FetcherJob -   2. http://eu.apachecon.com/c/aceu2009/sessions/165
+2014-11-24 19:30:56,495 ERROR httpclient.Http - Failed with the following error: 
+org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 10000 ms
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory.createSocket(ControllerThreadSocketFactory.java:97)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:128)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.open(MultiThreadedHttpConnectionManager.java:1361)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.apache.nutch.protocol.httpclient.HttpResponse.<init>(HttpResponse.java:95)
+	at org.apache.nutch.protocol.httpclient.Http.getResponse(Http.java:172)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:138)
+	at org.apache.nutch.fetcher.FetcherReducer$FetcherThread.run(FetcherReducer.java:514)
+2014-11-24 19:30:56,496 WARN  fetcher.FetcherJob - fetch of http://code.google.com/p/crawler-commons/ failed with: org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 10000 ms
+2014-11-24 19:31:00,003 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:31:01,484 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 9 pages, 1 errors, 0.4 0.4 pages/s, 30 0 kb/s, 2 URLs in 1 queues
+2014-11-24 19:31:01,484 INFO  fetcher.FetcherJob - * queue: http://eu.apachecon.com
+2014-11-24 19:31:01,484 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-11-24 19:31:01,484 INFO  fetcher.FetcherJob -   inProgress    = 0
+2014-11-24 19:31:01,484 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-11-24 19:31:01,484 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-11-24 19:31:01,484 INFO  fetcher.FetcherJob -   nextFetchTime = 1416828665412
+2014-11-24 19:31:01,485 INFO  fetcher.FetcherJob -   now           = 1416828661485
+2014-11-24 19:31:01,485 INFO  fetcher.FetcherJob -   0. http://eu.apachecon.com/c/aceu2009/sessions/138
+2014-11-24 19:31:01,485 INFO  fetcher.FetcherJob -   1. http://eu.apachecon.com/c/aceu2009/sessions/165
+2014-11-24 19:31:05,412 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/138
+2014-11-24 19:31:05,843 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 10 pages, 1 errors, 0.3 0.2 pages/s, 25 0 kb/s, 1 URLs in 1 queues
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob - * queue: http://eu.apachecon.com
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob -   inProgress    = 0
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob -   nextFetchTime = 1416828670843
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob -   now           = 1416828666485
+2014-11-24 19:31:06,485 INFO  fetcher.FetcherJob -   0. http://eu.apachecon.com/c/aceu2009/sessions/165
+2014-11-24 19:31:10,845 INFO  fetcher.FetcherJob - fetching http://eu.apachecon.com/c/aceu2009/sessions/165
+2014-11-24 19:31:10,858 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=9
+2014-11-24 19:31:10,914 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=8
+2014-11-24 19:31:10,988 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=7
+2014-11-24 19:31:10,988 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=6
+2014-11-24 19:31:10,999 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=5
+2014-11-24 19:31:11,006 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=4
+2014-11-24 19:31:11,006 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=3
+2014-11-24 19:31:11,133 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=2
+2014-11-24 19:31:11,267 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2014-11-24 19:31:11,353 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=0
+2014-11-24 19:31:11,486 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 11 pages, 1 errors, 0.3 0.2 pages/s, 21 0 kb/s, 0 URLs in 0 queues
+2014-11-24 19:31:11,486 INFO  fetcher.FetcherJob - -activeThreads=0
+2014-11-24 19:31:12,380 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-24 19:31:13,364 INFO  parse.ParserJob - ParserJob: resuming:	false
+2014-11-24 19:31:13,364 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2014-11-24 19:31:13,364 INFO  parse.ParserJob - ParserJob: parsing all
+2014-11-24 19:31:13,402 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-24 19:31:13,621 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-24 19:31:14,103 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-24 19:31:14,209 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-24 19:31:14,211 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-24 19:31:14,318 INFO  parse.ParserJob - Skipping http://identi.ca/creativecommons; different batch id (null)
+2014-11-24 19:31:14,320 INFO  parse.ParserJob - Skipping http://sched.co/1pav9xl; different batch id (null)
+2014-11-24 19:31:14,321 INFO  parse.ParserJob - Skipping http://sched.co/1pbE15n; different batch id (null)
+2014-11-24 19:31:14,322 INFO  parse.ParserJob - Skipping http://andreasviklund.com/; different batch id (null)
+2014-11-24 19:31:14,323 INFO  parse.ParserJob - Skipping http://www.eu.apachecon.com/c/aceu2009/; different batch id (null)
+2014-11-24 19:31:14,325 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/136
+2014-11-24 19:31:14,328 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/137
+2014-11-24 19:31:14,330 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/138
+2014-11-24 19:31:14,333 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/165
+2014-11-24 19:31:14,336 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/197
+2014-11-24 19:31:14,339 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/201
+2014-11-24 19:31:14,341 INFO  parse.ParserJob - Parsing http://eu.apachecon.com/c/aceu2009/sessions/250
+2014-11-24 19:31:14,342 INFO  parse.ParserJob - Skipping http://eu.apachecon.com/c/aceu2009/sessions/251; different batch id (null)
+2014-11-24 19:31:14,343 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/; different batch id (null)
+2014-11-24 19:31:14,344 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/schedule; different batch id (null)
+2014-11-24 19:31:14,345 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/331; different batch id (null)
+2014-11-24 19:31:14,346 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/332; different batch id (null)
+2014-11-24 19:31:14,347 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/333; different batch id (null)
+2014-11-24 19:31:14,348 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/334; different batch id (null)
+2014-11-24 19:31:14,350 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/335; different batch id (null)
+2014-11-24 19:31:14,351 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/375; different batch id (null)
+2014-11-24 19:31:14,352 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/427; different batch id (null)
+2014-11-24 19:31:14,353 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/428; different batch id (null)
+2014-11-24 19:31:14,354 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/430; different batch id (null)
+2014-11-24 19:31:14,355 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/437; different batch id (null)
+2014-11-24 19:31:14,356 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/461; different batch id (null)
+2014-11-24 19:31:14,357 INFO  parse.ParserJob - Skipping http://www.us.apachecon.com/c/acus2009/sessions/462; different batch id (null)
+2014-11-24 19:31:14,358 INFO  parse.ParserJob - Skipping http://us.apachecon.com/; different batch id (null)
+2014-11-24 19:31:14,359 INFO  parse.ParserJob - Skipping http://www.blogger.com/feeds/830893785995753823/3464310273600416312/comments/default; different batch id (null)
+2014-11-24 19:31:14,360 INFO  parse.ParserJob - Skipping http://www.blogger.com/feeds/830893785995753823/posts/default; different batch id (null)
+2014-11-24 19:31:14,361 INFO  parse.ParserJob - Skipping http://www.cafepress.com/nutch; different batch id (null)
+2014-11-24 19:31:14,362 INFO  parse.ParserJob - Skipping http://www.facebook.com/creativecommons; different batch id (null)
+2014-11-24 19:31:14,363 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/andrewfhart/8106189987/; different batch id (null)
+2014-11-24 19:31:14,365 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/andrewfhart/8106200690/; different batch id (null)
+2014-11-24 19:31:14,366 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/mrmuskrat/3637703614/; different batch id (null)
+2014-11-24 19:31:14,367 INFO  parse.ParserJob - Skipping https://www.flickr.com/photos/splorp/3981832163/; different batch id (null)
+2014-11-24 19:31:14,368 INFO  parse.ParserJob - Skipping https://www.google-melange.com/gsoc/homepage/google/gsoc2014; different batch id (null)
+2014-11-24 19:31:14,369 INFO  parse.ParserJob - Parsing http://code.google.com/p/crawler-commons/
+2014-11-24 19:31:14,371 INFO  parse.ParserJob - Skipping http://twitter.com/creativecommons; different batch id (null)
+2014-11-24 19:31:14,372 INFO  parse.ParserJob - Skipping https://twitter.com/ApacheNutch; different batch id (null)
+2014-11-24 19:31:14,373 INFO  parse.ParserJob - Skipping https://twitter.com/cutting/status/233415059798372353; different batch id (null)
+2014-11-24 19:31:14,374 INFO  parse.ParserJob - Skipping http://www.brics.dk/automaton/; different batch id (null)
+2014-11-24 19:31:14,375 INFO  parse.ParserJob - Skipping http://www.brics.dk/automaton/automaton; different batch id (null)
+2014-11-24 19:31:14,376 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/; different batch id (null)
+2014-11-24 19:31:14,377 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/2006/12/my-fellow-nutch-developer-andrzej.html; different batch id (null)
+2014-11-24 19:31:14,378 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/2006/12/nutch-and-hadoop-native-compression.html; different batch id (null)
+2014-11-24 19:31:14,379 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/2006/12/record-your-data.html; different batch id (null)
+2014-11-24 19:31:14,380 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/2007/01/sorted-out.html; different batch id (null)
+2014-11-24 19:31:14,382 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/2007/01/website-up.html; different batch id (null)
+2014-11-24 19:31:14,383 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/2007/02/online-indexing-integrating-nutch-with.html; different batch id (null)
+2014-11-24 19:31:14,384 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/2007/03/perfomance-history-for-nutch.html; different batch id (null)
+2014-11-24 19:31:14,388 INFO  parse.ParserJob - Parsing http://blog.foofactory.fi/2007/03/twice-speed-half-size.html
+2014-11-24 19:31:14,403 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-11-24 19:31:14,412 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/atom.xml; different batch id (null)
+2014-11-24 19:31:14,413 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/labels/nutch.html; different batch id (null)
+2014-11-24 19:31:14,415 INFO  parse.ParserJob - Skipping http://blog.foofactory.fi/rss.xml; different batch id (null)
+2014-11-24 19:31:14,416 INFO  parse.ParserJob - Skipping http://www.foofactory.fi/; different batch id (null)
+2014-11-24 19:31:14,417 INFO  parse.ParserJob - Skipping http://www.foofactory.fi/company.html; different batch id (null)
+2014-11-24 19:31:14,418 INFO  parse.ParserJob - Skipping http://www.foofactory.fi/contact.html; different batch id (null)
+2014-11-24 19:31:14,419 INFO  parse.ParserJob - Skipping http://wp.me/p5kMUg-1jG; different batch id (null)
+2014-11-24 19:31:14,420 INFO  parse.ParserJob - Skipping https://creativecommons.net/; different batch id (null)
+2014-11-24 19:31:14,421 INFO  parse.ParserJob - Skipping https://creativecommons.net/testimonials/; different batch id (null)
+2014-11-24 19:31:14,422 INFO  parse.ParserJob - Skipping https://builds.apache.org/view/M-R/view/Nutch/; different batch id (null)
+2014-11-24 19:31:14,423 INFO  parse.ParserJob - Skipping https://cwiki.apache.org/confluence/display/solr/SolrCloud; different batch id (null)
+2014-11-24 19:31:14,424 INFO  parse.ParserJob - Skipping http://gora.apache.org/; different batch id (null)
+2014-11-24 19:31:14,425 INFO  parse.ParserJob - Skipping http://hadoop.apache.org/; different batch id (null)
+2014-11-24 19:31:14,427 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH-1047; different batch id (null)
+2014-11-24 19:31:14,428 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH-1591; different batch id (null)
+2014-11-24 19:31:14,429 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH-841; different batch id (null)
+2014-11-24 19:31:14,430 INFO  parse.ParserJob - Skipping https://issues.apache.org/jira/browse/NUTCH/; different batch id (null)
+2014-11-24 19:31:14,431 INFO  parse.ParserJob - Skipping http://lucene.apache.org/; different batch id (null)
+2014-11-24 19:31:14,432 INFO  parse.ParserJob - Skipping http://lucene.apache.org/solr; different batch id (null)
+2014-11-24 19:31:14,433 INFO  parse.ParserJob - Skipping http://lucene.apache.org/solr/; different batch id (null)
+2014-11-24 19:31:14,439 INFO  parse.ParserJob - Parsing http://nutch.apache.org/
+2014-11-24 19:31:14,503 INFO  parse.ParserJob - Skipping http://nutch.apache.org/bot.html; different batch id (null)
+2014-11-24 19:31:14,505 INFO  parse.ParserJob - Skipping http://nutch.apache.org/credits.html; different batch id (null)
+2014-11-24 19:31:14,506 INFO  parse.ParserJob - Skipping http://nutch.apache.org/downloads.html; different batch id (null)
+2014-11-24 19:31:14,508 INFO  parse.ParserJob - Skipping http://nutch.apache.org/index.html; different batch id (null)
+2014-11-24 19:31:14,509 INFO  parse.ParserJob - Skipping http://nutch.apache.org/javadoc.html; different batch id (null)
+2014-11-24 19:31:14,510 INFO  parse.ParserJob - Skipping http://nutch.apache.org/mailing_lists.html; different batch id (null)
+2014-11-24 19:31:14,512 INFO  parse.ParserJob - Skipping http://nutch.apache.org/version_control.html; different batch id (null)
+2014-11-24 19:31:14,513 INFO  parse.ParserJob - Skipping http://s.apache.org/1.9-release; different batch id (null)
+2014-11-24 19:31:14,514 INFO  parse.ParserJob - Skipping http://s.apache.org/1zE; different batch id (null)
+2014-11-24 19:31:14,515 INFO  parse.ParserJob - Skipping http://s.apache.org/LPB; different batch id (null)
+2014-11-24 19:31:14,516 INFO  parse.ParserJob - Skipping http://s.apache.org/PGa; different batch id (null)
+2014-11-24 19:31:14,517 INFO  parse.ParserJob - Skipping http://s.apache.org/oHY; different batch id (null)
+2014-11-24 19:31:14,519 INFO  parse.ParserJob - Skipping http://tika.apache.org/; different batch id (null)
+2014-11-24 19:31:14,521 INFO  parse.ParserJob - Skipping http://tika.apache.org/1.2/index.html; different batch id (null)
+2014-11-24 19:31:14,522 INFO  parse.ParserJob - Skipping https://whimsy.apache.org/board/minutes/Nutch.html; different batch id (null)
+2014-11-24 19:31:14,523 INFO  parse.ParserJob - Skipping http://wicket.apache.org/; different batch id (null)
+2014-11-24 19:31:14,524 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/; different batch id (null)
+2014-11-24 19:31:14,525 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/Becoming_A_Nutch_Developer; different batch id (null)
+2014-11-24 19:31:14,526 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/FAQ; different batch id (null)
+2014-11-24 19:31:14,527 INFO  parse.ParserJob - Skipping http://wiki.apache.org/nutch/NutchPropertiesCompleteList; different batch id (null)
+2014-11-24 19:31:14,528 INFO  parse.ParserJob - Skipping https://wiki.apache.org/nutch/FrontPage; different batch id (null)
+2014-11-24 19:31:14,529 INFO  parse.ParserJob - Skipping https://wiki.apache.org/nutch/NutchRESTAPI; different batch id (null)
+2014-11-24 19:31:14,530 INFO  parse.ParserJob - Skipping http://www.apache.org/; different batch id (null)
+2014-11-24 19:31:14,531 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.5.1/CHANGES.txt; different batch id (null)
+2014-11-24 19:31:14,532 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.6/CHANGES_1.6.txt; different batch id (null)
+2014-11-24 19:31:14,533 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.7/1.7-CHANGES.txt; different batch id (null)
+2014-11-24 19:31:14,534 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.8/CHANGES.txt; different batch id (null)
+2014-11-24 19:31:14,536 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/1.9/CHANGES.txt; different batch id (null)
+2014-11-24 19:31:14,538 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.0/CHANGES.txt; different batch id (null)
+2014-11-24 19:31:14,539 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.1/CHANGES-2.1.txt; different batch id (null)
+2014-11-24 19:31:14,540 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.2.1/CHANGES-2.2.1.txt; different batch id (null)
+2014-11-24 19:31:14,541 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/2.2/2.2-CHANGES.txt; different batch id (null)
+2014-11-24 19:31:14,542 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-0.8.1.txt; different batch id (null)
+2014-11-24 19:31:14,543 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-0.9.txt; different batch id (null)
+2014-11-24 19:31:14,544 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.0.txt; different batch id (null)
+2014-11-24 19:31:14,545 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.1.txt; different batch id (null)
+2014-11-24 19:31:14,546 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.2.txt; different batch id (null)
+2014-11-24 19:31:14,547 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.3.txt; different batch id (null)
+2014-11-24 19:31:14,548 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.4.txt; different batch id (null)
+2014-11-24 19:31:14,550 INFO  parse.ParserJob - Skipping http://www.apache.org/dist/nutch/CHANGES-1.5.txt; different batch id (null)
+2014-11-24 19:31:14,551 INFO  parse.ParserJob - Skipping http://www.apache.org/dyn/closer.cgi/nutch/; different batch id (null)
+2014-11-24 19:31:14,553 INFO  parse.ParserJob - Skipping http://www.apache.org/foundation/records/minutes/2010/board_minutes_2010_04_21.txt; different batch id (null)
+2014-11-24 19:31:14,554 INFO  parse.ParserJob - Skipping http://www.apache.org/foundation/sponsorship.html; different batch id (null)
+2014-11-24 19:31:14,555 INFO  parse.ParserJob - Skipping http://www.apache.org/foundation/thanks.html; different batch id (null)
+2014-11-24 19:31:14,556 INFO  parse.ParserJob - Skipping http://www.apache.org/licenses/; different batch id (null)
+2014-11-24 19:31:14,557 INFO  parse.ParserJob - Skipping http://www.apache.org/licenses/LICENSE-2.0; different batch id (null)
+2014-11-24 19:31:14,558 INFO  parse.ParserJob - Skipping http://www.apache.org/security/; different batch id (null)
+2014-11-24 19:31:14,559 INFO  parse.ParserJob - Skipping https://donate.creativecommons.org; different batch id (null)
+2014-11-24 19:31:14,560 INFO  parse.ParserJob - Skipping http://planet.creativecommons.org/; different batch id (null)
+2014-11-24 19:31:14,561 INFO  parse.ParserJob - Skipping http://search.creativecommons.org/; different batch id (null)
+2014-11-24 19:31:14,562 INFO  parse.ParserJob - Skipping http://store.creativecommons.org/; different batch id (null)
+2014-11-24 19:31:14,564 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/4.0; different batch id (null)
+2014-11-24 19:31:14,565 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Best_practices_for_attribution; different batch id (null)
+2014-11-24 19:31:14,566 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/CC_Affiliate_Network; different batch id (null)
+2014-11-24 19:31:14,567 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Case_Studies; different batch id (null)
+2014-11-24 19:31:14,569 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees; different batch id (null)
+2014-11-24 19:31:14,571 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Developer_Challenges; different batch id (null)
+2014-11-24 19:31:14,572 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Events; different batch id (null)
+2014-11-24 19:31:14,573 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/FAQ; different batch id (null)
+2014-11-24 19:31:14,574 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Integrate; different batch id (null)
+2014-11-24 19:31:14,575 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/LRMI; different batch id (null)
+2014-11-24 19:31:14,576 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Marking_your_work_with_a_CC_license; different batch id (null)
+2014-11-24 19:31:14,577 INFO  parse.ParserJob - Skipping http://wiki.creativecommons.org/Translate; different batch id (null)
+2014-11-24 19:31:14,578 INFO  parse.ParserJob - Skipping http://creativecommons.org/; different batch id (null)
+2014-11-24 19:31:14,579 INFO  parse.ParserJob - Skipping http://creativecommons.org/about; different batch id (null)
+2014-11-24 19:31:14,580 INFO  parse.ParserJob - Skipping http://creativecommons.org/about/cc0; different batch id (null)
+2014-11-24 19:31:14,581 INFO  parse.ParserJob - Skipping http://creativecommons.org/about/history; different batch id (null)
+2014-11-24 19:31:14,582 INFO  parse.ParserJob - Skipping http://creativecommons.org/about/pdm; different batch id (null)
+2014-11-24 19:31:14,584 INFO  parse.ParserJob - Skipping http://creativecommons.org/about/press; different batch id (null)
+2014-11-24 19:31:14,585 INFO  parse.ParserJob - Skipping http://creativecommons.org/board; different batch id (null)
+2014-11-24 19:31:14,587 INFO  parse.ParserJob - Skipping http://creativecommons.org/choose/; different batch id (null)
+2014-11-24 19:31:14,588 INFO  parse.ParserJob - Skipping http://creativecommons.org/choose/mark/; different batch id (null)
+2014-11-24 19:31:14,590 INFO  parse.ParserJob - Skipping http://creativecommons.org/choose/zero/; different batch id (null)
+2014-11-24 19:31:14,591 INFO  parse.ParserJob - Skipping http://creativecommons.org/contact; different batch id (null)
+2014-11-24 19:31:14,592 INFO  parse.ParserJob - Skipping http://creativecommons.org/culture; different batch id (null)
+2014-11-24 19:31:14,593 INFO  parse.ParserJob - Skipping http://creativecommons.org/education; different batch id (null)
+2014-11-24 19:31:14,594 INFO  parse.ParserJob - Skipping http://creativecommons.org/examples; different batch id (null)
+2014-11-24 19:31:14,595 INFO  parse.ParserJob - Skipping http://creativecommons.org/interviews; different batch id (null)
+2014-11-24 19:31:14,596 INFO  parse.ParserJob - Skipping http://creativecommons.org/licenses/; different batch id (null)
+2014-11-24 19:31:14,597 INFO  parse.ParserJob - Skipping http://creativecommons.org/licenses/by/4.0/; different batch id (null)
+2014-11-24 19:31:14,598 INFO  parse.ParserJob - Skipping http://creativecommons.org/music-communities; different batch id (null)
+2014-11-24 19:31:14,599 INFO  parse.ParserJob - Skipping http://creativecommons.org/newsletter; different batch id (null)
+2014-11-24 19:31:14,601 INFO  parse.ParserJob - Skipping http://creativecommons.org/opportunities; different batch id (null)
+2014-11-24 19:31:14,602 INFO  parse.ParserJob - Skipping http://creativecommons.org/policies; different batch id (null)
+2014-11-24 19:31:14,606 INFO  parse.ParserJob - Parsing http://creativecommons.org/press-releases/entry/5064
+2014-11-24 19:31:14,633 INFO  parse.ParserJob - Skipping http://creativecommons.org/privacy; different batch id (null)
+2014-11-24 19:31:14,635 INFO  parse.ParserJob - Skipping http://creativecommons.org/publicdomain/; different batch id (null)
+2014-11-24 19:31:14,640 INFO  parse.ParserJob - Skipping http://creativecommons.org/publicpolicy; different batch id (null)
+2014-11-24 19:31:14,641 INFO  parse.ParserJob - Skipping http://creativecommons.org/record-labels; different batch id (null)
+2014-11-24 19:31:14,642 INFO  parse.ParserJob - Skipping http://creativecommons.org/science; different batch id (null)
+2014-11-24 19:31:14,643 INFO  parse.ParserJob - Skipping http://creativecommons.org/staff; different batch id (null)
+2014-11-24 19:31:14,645 INFO  parse.ParserJob - Skipping http://creativecommons.org/supporters; different batch id (null)
+2014-11-24 19:31:14,646 INFO  parse.ParserJob - Skipping http://creativecommons.org/taa-grant-program; different batch id (null)
+2014-11-24 19:31:14,647 INFO  parse.ParserJob - Skipping http://creativecommons.org/terms; different batch id (null)
+2014-11-24 19:31:14,649 INFO  parse.ParserJob - Skipping http://creativecommons.org/videos/; different batch id (null)
+2014-11-24 19:31:14,650 INFO  parse.ParserJob - Skipping http://creativecommons.org/weblog; different batch id (null)
+2014-11-24 19:31:14,651 INFO  parse.ParserJob - Skipping http://creativecommons.org/who-uses-cc; different batch id (null)
+2014-11-24 19:31:14,653 INFO  parse.ParserJob - Skipping http://creativecommons.org/wordpress/wp-includes/wlwmanifest.xml; different batch id (null)
+2014-11-24 19:31:14,654 INFO  parse.ParserJob - Skipping http://creativecommons.org/wordpress/xmlrpc.php; different batch id (null)
+2014-11-24 19:31:14,655 INFO  parse.ParserJob - Skipping https://creativecommons.org/licenses/by-sa/2.0/; different batch id (null)
+2014-11-24 19:31:14,656 INFO  parse.ParserJob - Skipping http://www.elasticsearch.org/; different batch id (null)
+2014-11-24 19:31:14,657 INFO  parse.ParserJob - Skipping http://events.linuxfoundation.org/events/apachecon-europe; different batch id (null)
+2014-11-24 19:31:14,658 INFO  parse.ParserJob - Skipping http://events.linuxfoundation.org/events/apachecon-north-america; different batch id (null)
+2014-11-24 19:31:14,659 INFO  parse.ParserJob - Skipping http://search.maven.org/; different batch id (null)
+2014-11-24 19:31:14,661 INFO  parse.ParserJob - Skipping http://nutch.org/; different batch id (null)
+2014-11-24 19:31:14,662 INFO  parse.ParserJob - Skipping http://openpolicynetwork.org/; different batch id (null)
+2014-11-24 19:31:14,664 INFO  parse.ParserJob - Skipping http://osuosl.org/news_folder/nutch; different batch id (null)
+2014-11-24 19:31:14,665 INFO  parse.ParserJob - Skipping http://schoolofopen.org/; different batch id (null)

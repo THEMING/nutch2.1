@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/tld/src/java/org/apache/nutch/indexer/tld
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/tld/src/java/org/apache/nutch/indexer/tld/package.html
+END
+TLDIndexingFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/asf/!svn/ver/1388536/nutch/tags/release-2.1/src/plugin/tld/src/java/org/apache/nutch/indexer/tld/TLDIndexingFilter.java
+END
