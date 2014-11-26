@@ -194,7 +194,7 @@ public class InjectorJob extends NutchTool implements Tool {
     setConf(conf);
   }
 
-  public Map<String,Object> run(Map<String,Object> args) throws Exception {
+  public Map<String,Object> run(Map<String,Object> args) throws Exception {System.out.println("================injector===========================");
     getConf().setLong("injector.current.time", System.currentTimeMillis());
     Path input;
     Object path = args.get(Nutch.ARG_SEEDDIR);

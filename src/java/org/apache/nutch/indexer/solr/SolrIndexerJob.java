@@ -62,7 +62,7 @@ public class SolrIndexerJob extends IndexerJob {
     LOG.info("SolrIndexerJob: done.");
   }
 
-  public int run(String[] args) throws Exception {
+  public int run(String[] args) throws Exception {System.out.println("================solrindexer===========================");
     if (args.length < 2) {
       System.err.println("Usage: SolrIndexerJob <solr url> (<batchId> | -all | -reindex) [-crawlId <id>]");
       return -1;

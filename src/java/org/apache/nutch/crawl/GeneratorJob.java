@@ -150,7 +150,7 @@ public class GeneratorJob extends NutchTool implements Tool {
     setConf(conf);
   }
 
-  public Map<String,Object> run(Map<String,Object> args) throws Exception {
+  public Map<String,Object> run(Map<String,Object> args) throws Exception {System.out.println("================generator===========================");
     // map to inverted subset due for fetch, sort by score
     Long topN = (Long)args.get(Nutch.ARG_TOPN);
     Long curTime = (Long)args.get(Nutch.ARG_CURTIME);

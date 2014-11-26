@@ -148,7 +148,7 @@ public class FetcherJob extends NutchTool implements Tool {
   }
 
   @Override
-  public Map<String,Object> run(Map<String,Object> args) throws Exception {
+  public Map<String,Object> run(Map<String,Object> args) throws Exception {System.out.println("================fetcher===========================");
     checkConfiguration();
     String batchId = (String)args.get(Nutch.ARG_BATCH);
     Integer threads = (Integer)args.get(Nutch.ARG_THREADS);

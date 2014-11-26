@@ -71,7 +71,7 @@ public class DbUpdaterJob extends NutchTool implements Tool {
     setConf(conf);
   }
     
-  public Map<String,Object> run(Map<String,Object> args) throws Exception {
+  public Map<String,Object> run(Map<String,Object> args) throws Exception {System.out.println("================dbupdater===========================");
     String crawlId = (String)args.get(Nutch.ARG_CRAWL);
     numJobs = 1;
     currentJobNum = 0;

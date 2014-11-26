@@ -156,6 +156,8 @@ public class Crawler extends NutchTool implements Tool {
     }
     // run "depth" cycles
     for (int i = 0; i < depth; i++) {
+//    int i=0;
+//    while(true){
       status.put(Nutch.STAT_PHASE, "generate " + i);
       jobRes = runTool(GeneratorJob.class, args);
       if (jobRes != null) {
@@ -194,14 +196,17 @@ public class Crawler extends NutchTool implements Tool {
       if (shouldStop) {
         return results;
       }
+      
     }
+    
     if (solrUrl != null) {
-      status.put(Nutch.STAT_PHASE, "index");
-      jobRes = runTool(SolrIndexerJob.class, args);
-      if (jobRes != null) {
-        subTools.put("index", jobRes);
+        status.put(Nutch.STAT_PHASE, "index");
+        jobRes = runTool(SolrIndexerJob.class, args);
+        if (jobRes != null) {
+          subTools.put("index", jobRes);
+        }
       }
-    }
+    
     return results;
   }
 
@@ -301,6 +306,7 @@ public class Crawler extends NutchTool implements Tool {
     Crawler c = new Crawler();
     Configuration conf = NutchConfiguration.create();
     int res = ToolRunner.run(conf, c, args);
+    System.out.println("============================½áÊø===============================");
     System.exit(res);
 //	  Properties properties = new Properties();
 //	  {gora.sqlstore.jdbc.user=root, gora.sqlstore.jdbc.password=cssystem , gora.sqlstore.jdbc.url=jdbc:mysql://127.0.0.1:3306/nutch, gora.sqlstore.jdbc.driver=com.mysql.jdbc.Driver}

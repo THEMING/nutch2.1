@@ -219,7 +219,7 @@ public class ParserJob extends NutchTool implements Tool {
   }
 
   @Override
-  public Map<String,Object> run(Map<String,Object> args) throws Exception {
+  public Map<String,Object> run(Map<String,Object> args) throws Exception {System.out.println("================parser===========================");
     String batchId = (String)args.get(Nutch.ARG_BATCH);
     Boolean shouldResume = (Boolean)args.get(Nutch.ARG_RESUME);
     Boolean force = (Boolean)args.get(Nutch.ARG_FORCE);
