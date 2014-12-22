@@ -103,7 +103,7 @@
 
     <!-- Uncomment this to use MySQL as database with SQL as Gora store. -->
 
-    <!-- <dependency org="mysql" name="mysql-connector-java" rev="5.1.25" conf="*->default"/> -->
+     <dependency org="mysql" name="mysql-connector-java" rev="5.1.25" conf="*->default"/> 
 
 
     <!-- Uncomment this to use HBase as Gora backend. -->
