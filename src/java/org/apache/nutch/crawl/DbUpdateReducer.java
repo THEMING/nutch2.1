@@ -61,11 +61,14 @@ extends GoraReducer<UrlWithScore, NutchWritable, String, WebPage> {
     scoringFilters = new ScoringFilters(conf);
     maxLinks = conf.getInt("db.update.max.inlinks", 10000);
   }
-
+  private int i=0;
   @Override
   protected void reduce(UrlWithScore key, Iterable<NutchWritable> values,
       Context context) throws IOException, InterruptedException {
     String keyUrl = key.getUrl().toString();
+    if(keyUrl.length()>255){
+    	keyUrl = keyUrl.substring(0, 254);
+    }
 
     WebPage page = null;
     inlinkedScoreData.clear();
@@ -104,7 +107,11 @@ extends GoraReducer<UrlWithScore, NutchWritable, String, WebPage> {
       } catch (ScoringFilterException e) {
         page.setScore(0.0f);
       }
-    } else {
+    }
+//    else{//已有的不参与更新
+//    	return;
+//    }System.out.println("==============dbReduce========================"+(i++));
+    else {
       byte status = (byte)page.getStatus();
       switch (status) {
       case CrawlStatus.STATUS_FETCHED:         // succesful fetch
@@ -190,12 +197,12 @@ extends GoraReducer<UrlWithScore, NutchWritable, String, WebPage> {
     if (page.getFromMetadata(FetcherJob.REDIRECT_DISCOVERED) != null) {
       page.removeFromMetadata(FetcherJob.REDIRECT_DISCOVERED);
     }
-    Mark.GENERATE_MARK.removeMarkIfExist(page);
-    Mark.FETCH_MARK.removeMarkIfExist(page);
+//    Mark.GENERATE_MARK.removeMarkIfExist(page);
+//    Mark.FETCH_MARK.removeMarkIfExist(page);
     Utf8 parse_mark = Mark.PARSE_MARK.checkMark(page);
-    if (parse_mark != null) {
+    if (parse_mark != null) {//非新建的数据加上update标识，以后不会再update这条数据
       Mark.UPDATEDB_MARK.putMark(page, parse_mark);
-      Mark.PARSE_MARK.removeMark(page);
+//      Mark.PARSE_MARK.removeMark(page);
     }
 
     context.write(keyUrl, page);

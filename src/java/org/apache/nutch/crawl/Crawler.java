@@ -16,7 +16,11 @@
  ******************************************************************************/
 package org.apache.nutch.crawl;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -29,6 +33,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.gora.sql.store.SqlStore;
@@ -46,6 +51,7 @@ import org.apache.nutch.indexer.solr.SolrIndexerJob;
 import org.apache.nutch.metadata.Nutch;
 import org.apache.nutch.parse.ParserJob;
 import org.apache.nutch.storage.WebPage;
+import org.apache.nutch.util.EmailQueue;
 import org.apache.nutch.util.NutchConfiguration;
 import org.apache.nutch.util.NutchTool;
 import org.apache.nutch.util.ToolUtil;
@@ -197,6 +203,16 @@ public class Crawler extends NutchTool implements Tool {
         return results;
       }
       
+      status.put(Nutch.STAT_PHASE, "getTheData " + i);
+      jobRes = runTool(GetTheDataJob.class, args);
+      if (jobRes != null) {
+        subTools.put("getTheData " + i, jobRes);
+      }
+      status.put(Nutch.STAT_PROGRESS, ++phase / totalPhases);
+      if (shouldStop) {
+        return results;
+      }
+      
     }
     
     if (solrUrl != null) {
@@ -264,52 +280,62 @@ public class Crawler extends NutchTool implements Tool {
     return 0;
   }
   
+  private static void readFile(String filePath) {
+      BufferedReader buf;
+          try {
+              buf = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
+          
+      
+              String regex="([0-9_\\-\\.])+@qq.com";
+              //String regex="([a-zA-Z0-9_\\-\\.])+@(.)+(\\.[a-z]+){1,}";ÂêÑÁßçÂ≠óÁ¨¶‰∏≤ÂºÄÂ§¥ÈÇÆÁÆ±
+  //            String regex="([0-9_\\-\\.])+@(.)+(\\.[a-z]+){1,}";//Êï∞Â≠óÂºÄÂ§¥ÈÇÆÁÆ±
+              Pattern pattern=Pattern.compile(regex);
+              String str = null;
+              while((str=buf.readLine())!=null)
+              {
+                  EmailQueue.getEmails().add(str);
+              }
+          
+          } catch (FileNotFoundException e) {
+              // TODO Auto-generated catch block
+              e.printStackTrace();
+          } catch (IOException e) {
+              // TODO Auto-generated catch block
+              e.printStackTrace();
+          }
+  }
+  
+  private static void readvisitedUrlsfile(String filePath)
+	{
+		BufferedReader buf;
+      try {
+          buf = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
+          String str = null;
+          while((str=buf.readLine())!=null)
+          {
+              EmailQueue.getVisitedUrlSet().add(str);
+          }
+      
+      } catch (FileNotFoundException e) {
+          // TODO Auto-generated catch block
+          e.printStackTrace();
+      } catch (IOException e) {
+          // TODO Auto-generated catch block
+          e.printStackTrace();
+      }
+	}
+  
   public static void main(String[] args) throws Exception {
-//	  String driver = "com.mysql.jdbc.Driver";
-//
-//	// URL÷∏œÚ“™∑√Œ µƒ ˝æ›ø‚√˚scutcs
-//
-//	String url = "jdbc:mysql://localhost:3306/nutch";
-//
-//	// MySQL≈‰÷√ ±µƒ”√ªß√˚
-//
-//	String user = "root";
-//
-//	// Java¡¨Ω”MySQL≈‰÷√ ±µƒ√‹¬Î
-//
-//	String password = "cssystem";
-//
-//	// º”‘ÿ«˝∂Ø≥Ã–Ú
-//
-//	Class.forName(driver);
-//
-//	// ¡¨–¯ ˝æ›ø‚
-//
-//	java.sql.Connection conn = DriverManager.getConnection(url, user, password);
-//	if(!conn.isClosed())
-//
-//		System.out.println("Succeeded connecting to the Database!");
-//	
-//	// statement”√¿¥÷¥––SQL”Ôæ‰
-//
-//	Statement statement = conn.createStatement();
-//
-//	// “™÷¥––µƒSQL”Ôæ‰
-//
-//	String sql = "select * from webpage";
-//
-//	//Ω·π˚ºØ
-//
-//	ResultSet rs = statement.executeQuery(sql);
 	
-	
+//	  String filePath = "f:\\emails\\emails.txt";
+//	    readFile(filePath);
+	    
+//	    String visitedUrlsfilePath = "f:\\emails\\visitedUrls.txt";
+//	    readvisitedUrlsfile(visitedUrlsfilePath);
     Crawler c = new Crawler();
     Configuration conf = NutchConfiguration.create();
     int res = ToolRunner.run(conf, c, args);
-    System.out.println("============================Ω· ¯===============================");
+    System.out.println("============================over===============================");
     System.exit(res);
-//	  Properties properties = new Properties();
-//	  {gora.sqlstore.jdbc.user=root, gora.sqlstore.jdbc.password=cssystem , gora.sqlstore.jdbc.url=jdbc:mysql://127.0.0.1:3306/nutch, gora.sqlstore.jdbc.driver=com.mysql.jdbc.Driver}
-//	  DataStore<String, WebPage> dataStore = new DataStore<String,WebPage>();
   }
 }

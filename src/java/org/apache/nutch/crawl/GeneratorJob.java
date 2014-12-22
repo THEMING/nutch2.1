@@ -246,8 +246,11 @@ public class GeneratorJob extends NutchTool implements Tool {
   }
 
   public static void main(String args[]) throws Exception {
-    int res = ToolRunner.run(NutchConfiguration.create(), new GeneratorJob(), args);
-    System.exit(res);
+	  while(true){
+		  int res = ToolRunner.run(NutchConfiguration.create(), new GeneratorJob(), args);
+	  }
+    
+//    System.exit(res);
   }
 
 }

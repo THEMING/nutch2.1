@@ -16,24 +16,38 @@
  ******************************************************************************/
 package org.apache.nutch.crawl;
 
+import java.io.IOException;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.apache.avro.util.Utf8;
+import org.apache.gora.mapreduce.GoraMapper;
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Mapper.Context;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.nutch.crawl.UrlWithScore.UrlOnlyPartitioner;
 import org.apache.nutch.crawl.UrlWithScore.UrlScoreComparator;
 import org.apache.nutch.crawl.UrlWithScore.UrlScoreComparator.UrlOnlyComparator;
+import org.apache.nutch.fetcher.FetcherJob;
 import org.apache.nutch.metadata.Nutch;
+import org.apache.nutch.parse.ParseStatusCodes;
+import org.apache.nutch.parse.ParseUtil;
+import org.apache.nutch.parse.ParserJob.ParserMapper;
+import org.apache.nutch.scoring.ScoreDatum;
+import org.apache.nutch.scoring.ScoringFilterException;
 import org.apache.nutch.scoring.ScoringFilters;
+import org.apache.nutch.storage.Mark;
+import org.apache.nutch.storage.ParseStatus;
 import org.apache.nutch.storage.StorageUtils;
 import org.apache.nutch.storage.WebPage;
+import org.apache.nutch.util.IdentityPageReducer;
 import org.apache.nutch.util.NutchConfiguration;
 import org.apache.nutch.util.NutchJob;
 import org.apache.nutch.util.NutchTool;
+import org.apache.nutch.util.TableUtil;
 import org.apache.nutch.util.ToolUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -42,6 +56,8 @@ public class DbUpdaterJob extends NutchTool implements Tool {
 
   public static final Logger LOG = LoggerFactory.getLogger(DbUpdaterJob.class);
 
+  private static final String RESUME_KEY = "parse.job.resume";
+  private static final String FORCE_KEY = "parse.job.force";
 
   private static final Collection<WebPage.Field> FIELDS =
     new HashSet<WebPage.Field>();
@@ -70,6 +86,79 @@ public class DbUpdaterJob extends NutchTool implements Tool {
   public DbUpdaterJob(Configuration conf) {
     setConf(conf);
   }
+  
+//  public static class DbUpdaterMapper 
+//  	extends GoraMapper<String, WebPage, String, WebPage> {
+//	private ParseUtil parseUtil;
+//	
+//	private boolean shouldResume;
+//	
+//	private boolean force;
+//	
+//	private Utf8 batchId;
+//	
+//	private boolean skipTruncated;
+//	
+//	private FetchSchedule schedule;
+//	
+//	private ScoringFilters scoringFilters;
+//	
+//	@Override
+//	public void setup(Context context) throws IOException {
+//	  Configuration conf = context.getConfiguration();
+//	  parseUtil = new ParseUtil(conf);
+//	  shouldResume = conf.getBoolean(RESUME_KEY, false);
+//	  force = conf.getBoolean(FORCE_KEY, false);
+//	  batchId = new Utf8(conf.get(GeneratorJob.BATCH_ID, Nutch.ALL_BATCH_ID_STR));
+//	  skipTruncated=conf.getBoolean(SKIP_TRUNCATED, true);
+//	  schedule = FetchScheduleFactory.getFetchSchedule(conf);
+//	  scoringFilters = new ScoringFilters(conf);
+//	}
+//	
+//	@Override
+//	public void map(String key, WebPage page, Context context)
+//	    throws IOException, InterruptedException {
+//	  Utf8 mark = Mark.PARSE_MARK.checkMark(page);
+//	  String unreverseKey = TableUtil.unreverseUrl(key);
+//	    if (!NutchJob.shouldProcess(mark, batchId)) {
+//	      LOG.info("Skipping " + TableUtil.unreverseUrl(key) + "; have not parse");
+//	      return;
+//	    }
+//	    if (shouldResume && Mark.UPDATEDB_MARK.checkMark(page) != null) {
+//	        LOG.info("Skipping " + unreverseKey + "; already update");
+//	        return;
+//	    } else {
+//	      LOG.info("Updating " + unreverseKey);
+//	    }
+//	    
+//	    Map<Utf8, Utf8> outlinks = page.getOutlinks();
+//	    if (outlinks != null) {
+//	      for (Entry<Utf8, Utf8> e : outlinks.entrySet()) {
+////	                int depth=Integer.MAX_VALUE;
+////	        Utf8 depthUtf8=page.getFromMarkers(DbUpdaterJob.DISTANCE);
+////	        if (depthUtf8 != null) depth=Integer.parseInt(depthUtf8.toString());
+////	        scoreData.add(new ScoreDatum(0.0f, e.getKey().toString(), 
+////	            e.getValue().toString(), depth));
+//	        
+//	        WebPage outlinkpage = new WebPage();
+//	        String url = e.getKey().toString();
+//	        schedule.initializeSchedule(e.getKey().toString(), outlinkpage);
+//	        outlinkpage.setStatus(CrawlStatus.STATUS_UNFETCHED);
+//	        try {
+//	            scoringFilters.initialScore(url, outlinkpage);
+//	          } catch (ScoringFilterException ee) {
+//	        	  outlinkpage.setScore(0.0f);
+//	          }
+//	        if (outlinkpage.getFromMetadata(FetcherJob.REDIRECT_DISCOVERED) != null) {
+//	        	outlinkpage.removeFromMetadata(FetcherJob.REDIRECT_DISCOVERED);
+//	          }
+//	       
+//	      }
+//	    }
+//	
+//	  context.write(key, page);
+//	}    
+//	}
     
   public Map<String,Object> run(Map<String,Object> args) throws Exception {System.out.println("================dbupdater===========================");
     String crawlId = (String)args.get(Nutch.ARG_CRAWL);
@@ -98,6 +187,41 @@ public class DbUpdaterJob extends NutchTool implements Tool {
     currentJob.waitForCompletion(true);
     ToolUtil.recordJobStatus(null, currentJob, results);
     return results;
+  
+  //以上是DbUpdater原来的代码，以下是修改后的
+  
+//  String batchId = (String)args.get(Nutch.ARG_BATCH);
+//  Boolean shouldResume = (Boolean)args.get(Nutch.ARG_RESUME);
+//  Boolean force = (Boolean)args.get(Nutch.ARG_FORCE);
+//  
+//  if (batchId != null) {
+//    getConf().set(GeneratorJob.BATCH_ID, batchId);
+//  }
+//  if (shouldResume != null) {
+//    getConf().setBoolean(RESUME_KEY, shouldResume);
+//  }
+//  if (force != null) {
+//    getConf().setBoolean(FORCE_KEY, force);
+//  }
+//  LOG.info("DbUpdaterJob: resuming:\t" + getConf().getBoolean(RESUME_KEY, false));
+//  LOG.info("DbUpdaterJob: forced reparse:\t" + getConf().getBoolean(FORCE_KEY, false));
+//  if (batchId == null || batchId.equals(Nutch.ALL_BATCH_ID_STR)) {
+//    LOG.info("DbUpdaterJob: parsing all");
+//  } else {
+//    LOG.info("DbUpdaterJob: batchId:\t" + batchId);
+//  }
+//  currentJob = new NutchJob(getConf(), "update-table");
+//  
+//  Collection<WebPage.Field> fields = new HashSet<WebPage.Field>(FIELDS);
+//  StorageUtils.initMapperJob(currentJob, fields, String.class, WebPage.class,
+//      DbUpdaterMapper.class);
+//  StorageUtils.initReducerJob(currentJob, DbUpdaterReducer.class);
+//  currentJob.setNumReduceTasks(0);
+//
+//  currentJob.waitForCompletion(true);
+//  ToolUtil.recordJobStatus(null, currentJob, results);
+//  return results;
+  
   }
   
   private int updateTable(String crawlId) throws Exception {
@@ -120,8 +244,11 @@ public class DbUpdaterJob extends NutchTool implements Tool {
   }
 
   public static void main(String[] args) throws Exception {
-    int res = ToolRunner.run(NutchConfiguration.create(), new DbUpdaterJob(), args);
-    System.exit(res);
+	  while(true){
+		  int res = ToolRunner.run(NutchConfiguration.create(), new DbUpdaterJob(), args);
+	  }
+    
+//    System.exit(res);
   }
 
 }

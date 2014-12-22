@@ -25,10 +25,12 @@ import java.util.Map.Entry;
 import org.apache.avro.util.Utf8;
 import org.slf4j.Logger;
 import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.mapreduce.Mapper.Context;
 import org.apache.hadoop.util.StringUtils;
 import org.apache.nutch.scoring.ScoreDatum;
 import org.apache.nutch.scoring.ScoringFilterException;
 import org.apache.nutch.scoring.ScoringFilters;
+import org.apache.nutch.storage.Mark;
 import org.apache.nutch.storage.WebPage;
 import org.apache.nutch.util.TableUtil;
 import org.apache.nutch.util.WebPageWritable;
@@ -46,10 +48,26 @@ extends GoraMapper<String, WebPage, UrlWithScore, NutchWritable> {
   private UrlWithScore urlWithScore = new UrlWithScore();
   private NutchWritable nutchWritable = new NutchWritable();
   private WebPageWritable pageWritable;
-
+  public static final String MY_UPDATE_URL_NUM = "my.update.url.num";
+  private int updateNum = 10;
+  private static int ii=0;
   @Override
   public void map(String key, WebPage page, Context context)
   throws IOException, InterruptedException {
+	  if(ii>updateNum){
+		  return;
+	  }
+	  
+	  Utf8 parsemark = Mark.PARSE_MARK.checkMark(page);
+	  Utf8 updatemark = Mark.UPDATEDB_MARK.checkMark(page);
+	  
+	  if(parsemark==null){
+		  LOG.debug("the url:"+key+" have not parse");
+		  return;
+	  }else if(updatemark!=null){
+		  LOG.debug("the url:"+key+" had update");
+		  return;
+	  }
 
     String url = TableUtil.unreverseUrl(key);
 
@@ -87,12 +105,20 @@ extends GoraMapper<String, WebPage, UrlWithScore, NutchWritable> {
       nutchWritable.set(scoreDatum);
       context.write(urlWithScore, nutchWritable);
     }
+    
+    ii++;
   }
+  
+  protected void cleanup(Context context) throws IOException ,InterruptedException {
+  	ii=0;
+  }
+  
 
   @Override
   public void setup(Context context) {
     scoringFilters = new ScoringFilters(context.getConfiguration());
     pageWritable = new WebPageWritable(context.getConfiguration(), null);
+    updateNum = context.getConfiguration().getInt(MY_UPDATE_URL_NUM, 10);
   }
 
 }
